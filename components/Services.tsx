@@ -3,59 +3,68 @@ import React from 'react'
 function Services() {
   return (
     <div>
-       <section className="py-16 md:py-24 bg-white">
-        <div className="container mx-auto px-4">
+      <section className="py-16 md:py-24 bg-white">
+        <div className="container mx-auto px-4 max-w-6xl">
           <div className="grid md:grid-cols-3 gap-8 md:gap-12">
-            {/* Dobré zmluvy */}
-            <div className="space-y-6">
-              <div className="border-b-2 border-gray-300 pb-2">
-                <h2 className="text-xl md:text-2xl font-light text-gray-800">Dobré zmluvy</h2>
+            {/* Otvorený prístup */}
+            <div className="space-y-6 border-t border-gray-300 pt-6">
+              <div className="pb-4">
+                <h2 className="text-xl md:text-2xl font-normal text-gray-800 pb-2  border-gray-600 ">
+                  Otvorený prístup
+                </h2>
               </div>
               <div className="space-y-4 text-gray-600 text-sm leading-relaxed">
                 <p>
-                  Zmluvy pre Vás navrhujeme, upravujeme i kontrolujeme. Upozorňujeme na dôležité body zmluvných vzťahov
-                  a vyhodnocujeme ich relevantné súvislosti. Radíme Vám pri rokovaniach s obchodnými partnermi a v
-                  prípade potreby vyjednávame vo Vašom mene.
+                  AS LEGAL patrí medzi malé až stredne veľké advokátske kancelárie, dlhodobo pôsobiace na slovenskom a
+                  českom trhu. Základom nášho úspechu je otvorený prístup, ktorý sa prejavuje vo všetkom, čo robíme -
+                  rýchlo sa prispôsobíme konkrétnym požiadavkám klienta, prijímame spätnú väzbu a inovujeme za účelom
+                  poskytnutia ešte lepšej služby.
                 </p>
                 <p>
-                  Vo svete záväzkov spravidla platí, že dobré zmluvy robia dobrých priateľov.{" "}
-                  <span className="text-cyan-500 cursor-pointer hover:underline">Viac...</span>
+                  Právny názor Vám prezentujeme otvorene a zrozumiteľne, máme transparentný systém odmeňovania a
+                  usilujeme sa jednoduchšie Vám prístup k spravodlivosti po každej stránke.
                 </p>
               </div>
             </div>
 
-            {/* Férový proces */}
-            <div className="space-y-6">
-              <div className="border-b-2 border-gray-300 pb-2">
-                <h2 className="text-xl md:text-2xl font-light text-gray-800">Férový proces</h2>
+            {/* Profesionálna služba */}
+            <div className="space-y-6 border-t border-gray-300 pt-6">
+              <div className="pb-4">
+                <h2 className="text-xl md:text-2xl font-normal text-gray-800 pb-2  border-gray-300 ">
+                  Profesionálna služba
+                </h2>
               </div>
               <div className="space-y-4 text-gray-600 text-sm leading-relaxed">
                 <p>
-                  Dohliadame na to, aby Vaše konanie pred súdom alebo správnym orgánom prebiehalo v súlade so zákonom a
-                  právom na spravodlivý proces. Pripravujeme kvalifikované podania, vyhotovujeme stratégiu pre vedenie
-                  sporu a zastupujeme Vaše záujmy na pojednávaniach.
+                  Advokátska kancelária AS LEGAL sa sústreďí najmä na služby pre obchodné a správne právo súdnych konaní
+                  je potom súčasťou práce našej zmluvnej a poradenskej agendy. Cieľom je predchádzať všetkým možným
+                  konfliktom. O Vaše práva sa starajú vždy aspoň dvaja členovia tímu, čím sa zabezpečuje väčšia
+                  stabilita služieb a širší pohľad na daný prípad.
                 </p>
                 <p>
-                  Súčasný stav právneho prostredia klade na účastníkov konania vysoké nároky.{" "}
-                  <span className="text-cyan-500 cursor-pointer hover:underline">Viac...</span>
+                  Je zrejmé, že nemôžeme byť expertmi na všetky otázky. K profesionalite preto patrí schopnosť
+                  spolupráce s odborníkmi z iných odvetví a ak to nestačí, odporučanie iného advokáta.
                 </p>
               </div>
             </div>
 
-            {/* Odborná ochrana */}
-            <div className="space-y-6">
-              <div className="border-b-2 border-gray-300 pb-2">
-                <h2 className="text-xl md:text-2xl font-light text-gray-800">Odborná ochrana</h2>
+            {/* Spokojnosť klienta */}
+            <div className="space-y-6 border-t border-gray-300 pt-6">
+              <div className="pb-4">
+                <h2 className="text-xl md:text-2xl font-normal text-gray-800 pb-2  border-gray-300 ">
+                  Spokojnosť klienta
+                </h2>
               </div>
               <div className="space-y-4 text-gray-600 text-sm leading-relaxed">
                 <p>
-                  Poskytujeme právne poradenstvo, ktoré Vám pomáha vyriešiť svoje práva, poznať povinnosti a vyjasniť si
-                  sporné otázky. Predkladáme Vám zrozumiteľné právne analýzy, vykonávame právne audity (due diligence) a
-                  organizujeme školenia na mieru podľa Vašej potreby.
+                  Spokojnosť klienta je u nás na prvom mieste. Pre členov tímu to znamená nielen objaviť práva a záujmy
+                  klientov za použitia všetkých dostupných prostriedkov, ale aj záväzok neustále zvyšovať úroveň
+                  odbornej kvalifikácie, pristupovať ku každému prípadu osobitne a priniesť očakávaný výsledok - všetko
+                  v rámci platných pravidiel práva a advokátskej etiky.
                 </p>
                 <p>
-                  Cieľom našej odbornej ochrany je pôsobiť predovšetkým preventívne.{" "}
-                  <span className="text-cyan-500 cursor-pointer hover:underline">Viac...</span>
+                  Pri návšteve našej kancelárie sa stretnete s priateľskou a neformálnou atmosférou, v ktorej Vám naši
+                  právnici radi a ochotne poradia s predloženým problémom.
                 </p>
               </div>
             </div>
