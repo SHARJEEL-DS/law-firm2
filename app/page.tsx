@@ -28,7 +28,7 @@ export default function HomePage() {
       {/* Header */}
 <header className="relative bg-[#3a3b3e] text-white overflow-hidden">
       {/* Diagonal white shape */}
-      <div className="absolute inset-y-0 left-1/4 w-[120px] bg-white transform -skew-x-12"></div>
+      <div className="absolute inset-y-0 left-1/4 w-[120px] bg-white transform -skew-x-12 hidden md:block"></div>
 
       <div className="relative z-10 container mx-auto px-4 py-6">
         <div className="flex items-center justify-between">
@@ -106,7 +106,7 @@ export default function HomePage() {
   <div className="relative z-10 container mx-auto h-full px-4">
     <div className="h-full flex items-center justify-between gap-6">
       {/* Left purple title card */}
-      <div className="bg-purple-600/90 -translate-y-14 text-white shadow-lg px-6 py-6 md:px-8 md:py-8 max-w-sm">
+      <div className="bg-purple-800/80 -translate-y-14 text-white shadow-lg px-6 py-6 md:px-8 md:py-8 max-w-sm">
         <h2 className="text-2xl md:text-3xl font-semibold mb-2">Starostlivosť</h2>
         <p className="text-lg md:text-xl font-light leading-snug">
           Vaše záujmy v<br />centre pozornosti
@@ -117,11 +117,12 @@ export default function HomePage() {
       <div className="flex-1 hidden md:block" />
 
       {/* Right purple paragraph card */}
-      <div className="bg-purple-600/90 translate-y-24 text-white shadow-lg px-6 py-6 md:px-8 md:py-8 max-w-[300px] text-[13px] md:text-sm leading-relaxed font-light">
-        Advokátska kancelária AS LEGAL bola založená v roku 2008 ako spoločný projekt
-        advokátov, ktorí zlučili svoju dlhoročnú prax, aby klientom poskytli právny servis
-        na novej úrovni. Filozofiou kancelárie sa od začiatku .
-      </div>
+    <div className="bg-purple-800/80 translate-y-10 md:translate-y-24 text-white shadow-lg px-4 py-4 md:px-8 md:py-8 max-w-[170px] md:max-w-[300px] text-[8px] md:text-sm leading-relaxed font-light">
+  Advokátska kancelária AS LEGAL bola založená v roku 2008 ako spoločný projekt
+  advokátov, ktorí zlučili svoju dlhoročnú prax, aby klientom poskytli právny servis
+  na novej úrovni. Filozofiou kancelárie sa od začiatku .
+</div>
+
     </div>
   </div>
 

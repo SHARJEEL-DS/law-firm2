@@ -7,9 +7,10 @@ function Services() {
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="grid md:grid-cols-3 gap-8 md:gap-12">
             {/* Otvorený prístup */}
-            <div className="space-y-6 border-t border-gray-300 pt-6">
+            <div className="space-y-6 border-t border-gray-900 pt-6">
               <div className="pb-4">
-                <h2 className="text-xl md:text-2xl font-normal text-gray-800 pb-2  border-gray-600 ">
+
+                <h2 className="text-xl md:text-2xl font-normal text-gray-800 pb-2  border-gray-900 ">
                   Otvorený prístup
                 </h2>
               </div>
@@ -28,7 +29,7 @@ function Services() {
             </div>
 
             {/* Profesionálna služba */}
-            <div className="space-y-6 border-t border-gray-300 pt-6">
+            <div className="space-y-6 border-t border-gray-900 pt-6">
               <div className="pb-4">
                 <h2 className="text-xl md:text-2xl font-normal text-gray-800 pb-2  border-gray-300 ">
                   Profesionálna služba
@@ -49,7 +50,7 @@ function Services() {
             </div>
 
             {/* Spokojnosť klienta */}
-            <div className="space-y-6 border-t border-gray-300 pt-6">
+            <div className="space-y-6 border-t border-gray-900 pt-6">
               <div className="pb-4">
                 <h2 className="text-xl md:text-2xl font-normal text-gray-800 pb-2  border-gray-300 ">
                   Spokojnosť klienta
