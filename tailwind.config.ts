@@ -13,6 +13,9 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
+			gold: '#d4af37',
+        dark: '#000000',
+        light: '#ffffff',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -90,7 +93,11 @@ const config: Config = {
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
   			'accordion-up': 'accordion-up 0.2s ease-out'
-  		}
+  		},
+		fontFamily: {
+        heading: ['Playfair Display', 'serif'],
+        body: ['Inter', 'sans-serif'],
+      },
   	}
   },
   plugins: [require("tailwindcss-animate")],
